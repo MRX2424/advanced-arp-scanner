@@ -17,7 +17,6 @@ Supports stealth scanning and automatic MAC spoofing.
 
 ![Example 2](screenshots/example2.png)
 
-> To add your own screenshots, place them in the `screenshots/` folder and update this section.
 
 ---
 
@@ -36,3 +35,20 @@ Supports stealth scanning and automatic MAC spoofing.
 git clone https://github.com/MRX2424/advanced-arp-scanner.git
 cd advanced-arp-scanner
 pip install -r requirements.txt
+
+
+## 📦 Usage
+
+### Basic Scan
+```bash
+python3 arp_scanner.py -r 192.168.1.1/24
+
+
+### Stealth Scan
+```bash
+python3 arp_scanner.py -r 192.168.1.1/24 -s -d random
+
+### MAC Spoofing
+```bash 
+sudo python3 arp_scanner.py -r 192.168.1.1/24 -s -d 1.5 -m -i eth0
+
