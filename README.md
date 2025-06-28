@@ -40,15 +40,12 @@ pip install -r requirements.txt
 ## 📦 Usage
 
 ### Basic Scan
-```bash
 python3 arp_scanner.py -r 192.168.1.1/24
 
 
 ### Stealth Scan
-```bash
 python3 arp_scanner.py -r 192.168.1.1/24 -s -d random
 
 ### MAC Spoofing
-```bash 
 sudo python3 arp_scanner.py -r 192.168.1.1/24 -s -d 1.5 -m -i eth0
 
