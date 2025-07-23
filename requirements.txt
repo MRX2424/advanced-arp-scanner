@@ -1,1 +1,7 @@
-scapy
+scapy>=2.4.5
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+colorama>=0.4.6
+argparse
+threading
+ipaddress
